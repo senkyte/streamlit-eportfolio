@@ -1,0 +1,10 @@
+import streamlit as st
+st.set_page_config(page_title = "Alexander Koh's E-portfolio")
+st.title("My Streamlit Experience")
+st.subheader("My history with Streamlit")
+st.image("/Users/alexanderkoh/Downloads/llm.jpeg",caption = "The first day of learning LLM in Republic Poly. The content was heavy, but I found it very interesting.")
+st.write("While I was doing my DISCOVER week in Republic Polytechnic, where I was learning Generative AI, I learnt how to use Streamlit as a quick app deployment for Python. It was very easy to navigate, and helped me quickly give my code a clean GUI. Using Streamlit, me and my partners created an app which allowed you do input your digital notes, and it could use OpenAI to generate a summary, MCQ and open-ended questions, for active recall.")
+st.subheader("The BottleDetectorinator")
+st.write("From 2023 to 2024, I was assigned a Computing coursework to create an application which helped tackle a certain range of problems. I chose to create an app to detect whether a plastic bottle was dirty or clean. It is extremely easy to contaminate a recycling bin, and its contents, as one lazy person who threw in a dirty bottle could ruin the other hundreds of clean plastic bottles inside, rendering it all unrecyclable. Therefore, my solution was to use AI to help recognise clean and dirty bottles, and reject dirty bottles. Furthermore, as an incentive for Singaporeans to clean their plastic bottles and recycle, the machine could also generate coupons to reward them for every certain amount of bottles recycled by them.")
+st.image("/Users/alexanderkoh/Downloads/bottlepic.png", caption = "A screenshot of the BottleDetectorinator. To test it for yourself, go to (https://bottledetectorinator.streamlit.app). If the machine is not confident, please retake your photo.")
+st.write("This is just a small extention of my e-portfolio, so please return to my website to see more!")
